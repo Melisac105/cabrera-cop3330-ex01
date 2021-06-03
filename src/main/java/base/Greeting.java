@@ -24,21 +24,21 @@ public class Greeting {
     public static void main(String[] args) {
         Greeting myGreeting = new Greeting();
 
-        myGreeting.readInput();
-        myGreeting.concatenateString();
-        myGreeting.output();
+        String name = myGreeting.readInput();
+        String outputString = myGreeting.concatenateString(name);
+        myGreeting.output(outputString);
     }
 
-    public void readInput() {
-        System.out.println("What is your name? ");
-        String usrIn = input.nextLine();
+    public String readInput() {
+        System.out.print("What is your name? ");
+        return input.nextLine();
     }
 
-    public void concatenateString() {
-        String finalString = "Hello," + usrIn + ",nice to meet you!";
+    public String concatenateString(String usrIn) {
+        return "Hello," + usrIn + ",nice to meet you!";
     }
 
-    public void output() {
+    public void output(String finalString) {
         System.out.println(finalString);
     }
 
