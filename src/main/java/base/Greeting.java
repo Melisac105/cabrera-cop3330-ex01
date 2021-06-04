@@ -1,4 +1,8 @@
-/*Exercise 1 - Saying Hello
+/*
+UCF COP3330 Summer 2021 Assignment 1 Solution
+Copyright 2021 Melissa Cabrera
+
+Exercise 1 - Saying Hello
 Create a program that prompts for your name and prints a greeting using your name.
 
 Example Output
