@@ -47,7 +47,7 @@
                         <archive>
                             <manifest>
                                 <addClasspath>true</addClasspath>
-                                <mainClass>base.Greeting</mainClass>
+                                <mainClass>GreetingApp</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
